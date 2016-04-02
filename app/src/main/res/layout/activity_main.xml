@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.codekhadi.sharedpref_example.MainActivity">
+
+    <EditText
+        android:id="@+id/edt_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edt_name"
+        android:text="insert"
+        android:layout_alignRight="@+id/txt_show"
+        android:layout_alignEnd="@+id/txt_show"
+        android:layout_marginTop="127dp" />
+    <Button
+        android:id="@+id/btn_retrive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btn_click"
+        android:text="retrive"
+        android:layout_alignRight="@+id/edt_name"
+        android:layout_alignEnd="@+id/edt_name" />
+
+    <TextView
+        android:id="@+id/txt_show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Richard James" />
+</RelativeLayout>
