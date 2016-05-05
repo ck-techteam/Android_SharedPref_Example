@@ -1,6 +1,9 @@
 <article class="markdown-body entry-content" itemprop="text">
 <h1><a id="UseSharedPreferences in android" class="anchor" href="#UseSharedPreferences in android" aria-hidden="true"></a>UseSharedPreferences in android</h1>
 
+<p>Shared Preferences allows a developer to save and retrieve data. This project is an overview of the getSharedPreferences() method.</p>
+
+
 <p>
 
 Android provides many ways of storing data of an application. One of these ways is Shared Preferences. Shared Preferences allows you to save and retrieve data in the form of key, value pair.</p>
